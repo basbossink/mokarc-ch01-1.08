@@ -8,7 +8,15 @@ int tests_run = 0;
 
 static char *
 all_tests() {
-  mu_run_test(test_character_counter);
+  mu_run_test(test_count_character);
+  mu_run_test(test_count_characters_a);
+  mu_run_test(test_count_characters_b);
+  mu_run_test(test_count_characters_c);
+  mu_run_test(test_count_characters_d);
+  mu_run_test(test_count_characters_e);
+  mu_run_test(test_count_characters_f);
+  mu_run_test(test_count_characters_g);
+  mu_run_test(test_count_characters_h);
   return 0;
 }
 
