@@ -34,4 +34,4 @@ $(OUTPUT_DIR):
 .PHONY: clean all
 
 clean:
-	rm -rf $(OUTPUT_DIR) $(ALL_OBJECTS) $(DEPS)
+	rm -rf $(OUTPUT_DIR) $(ALL_OBJECTS) $(DEPS) main/main.[od]
